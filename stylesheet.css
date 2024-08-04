@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+#banner {
+    background-color: #0c2658;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 1.25rem;
+}
+
+#about-me {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.experience {
+    display: flex;
+    align-items: center;
+}
+
+.company,
+.role,
+.dates {
+    margin-right: 1em;
+}
+
+.content-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.25rem;
+}
+
+.section {
+    background-color: #fff;
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #065e99;
+}
+
+img {
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+    display: block;
+    margin: 0.625rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+.imgL {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+.education {
+    display: flex;
+    align-items: center;
+}
+
+.education img {
+    max-width: 50px;
+}
